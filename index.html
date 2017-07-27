@@ -1,0 +1,197 @@
+<html>
+<head>
+    <title>pomle</title>
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,700" rel="stylesheet">
+    <style>
+        body {
+            color: #737373;
+            font-family: 'Maven Pro', sans-serif;
+            line-height: 1.4;
+        }
+
+        a {
+            color: #ff0e00;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        header,
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .projects {
+            margin: auto;
+            max-width: 1000px;
+        }
+
+        .projects ul > li {
+            display: flex;
+            flex-flow: row wrap;
+            margin: 3em 0;
+        }
+
+        .projects li > * {
+            min-width: 300px;
+        }
+
+        .projects .image {
+            align-items: center;
+            flex: 0 1 auto;
+            display: flex;
+            justify-content: center;
+            padding: 1em;
+            width: 50%;
+        }
+
+        .projects .image img {
+            max-height: 100%;
+            max-width: 100%;
+        }
+
+        .projects .image.stuckup img {
+            box-shadow: 0 6px 25px -7px #000;
+        }
+
+        .projects .image.frame img {
+            border-radius: 10px;
+        }
+
+        .projects .info {
+            flex: 1;
+        }
+
+        .projects .info h3 {
+            color: #000;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: #00b6ff; font-size: 40pt;">pomle</h1>
+    </header>
+
+    <section class="projects">
+        <ul>
+            <li>
+                <div class="image">
+                    <a href="http://snex.io/">
+                        <img src="./images/snex2.png" width="400"/>
+                    </a>
+                </div>
+
+                <div class="info">
+                    <h3>SNEX</h3>
+
+                    <p>
+                        SNEX is a project started with <a href="http://ethandirks.com/">Ethan Dirks</a> which aims to provide classic style game pads that render on smartphones and send JSON encoded events to web applications. You can <a href="http://snex.io/#get-started">implement them in your app</a>.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="image stuckup">
+                    <a href="http://megaman.pomle.com/">
+                        <img src="./images/megaman2js.png" width="360"/>
+                    </a>
+                </div>
+
+                <div class="info">
+                    <h3>Megaman 2 JS</h3>
+
+                    <p>
+                        A remake of Megaman 2 I started in order to learn about game programming. You can <a href="http://megaman.pomle.com/">try it</a>. Play with W-A-S-D, O-P, Q-E or remap using the on-screen remapper.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="image s">
+                    <a href="https://github.com/snakesilk">
+                        <img src="./images/snakesilk.png" width="200" height="200" />
+                    </a>
+                </div>
+
+                <div class="info">
+                    <h3>Snakesilk</h3>
+
+                    <p>
+                        A game engine for Web environment running Javascript. It's <a href="https://github.com/snakesilk">open sourced</a> and installable via <a href="https://www.npmjs.com/package/@snakesilk/engine">NPM</a>. This engine was made during Megaman 2 JS development and decoupled in 2017.
+                    </p>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="image stuckup frame">
+                    <a href="https://www.youtube.com/channel/UC8A0M0eDttdB11MHxX58vXQ">
+                        <img src="./images/meth-meth-method.png" width="360" height="270" />
+                    </a>
+                </div>
+
+                <div class="info">
+                    <h3>Meth Meth Method</h3>
+
+                    <p>
+                        A <a href="https://www.youtube.com/channel/UC8A0M0eDttdB11MHxX58vXQ">YouTube show</a> where I teach Javascript inspired by Fun Fun Function. All projects available on <a href="https://github.com/meth-meth-method/">GitHub</a>.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="image stuckup">
+                    <a href="https://pomle.github.io/grafit">
+                        <img src="./images/grafit.png" width="360" />
+                    </a>
+                </div>
+
+                <div class="info">
+                    <h3>Grafit</h3>
+
+                    <p>
+                        A graphing tool for visualizing Javascript function output.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="image stuckup">
+                    <a href="https://pomle.github.io/keycode">
+                        <img src="./images/keycode.png" width="360" />
+                    </a>
+                </div>
+
+                <div class="info">
+                    <h3>Keycode</h3>
+
+                    <p>
+                        A tiny tool that shows the keycode of pressed keyboard key.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="image stuckup">
+                    <a href="https://open.spotify.com/artist/5BWaLVIrTxKSqXFHAETKPA">
+                        <img src="./images/robot-abuse.png" width="240" height="240" />
+                    </a>
+                </div>
+
+                <div class="info">
+                    <h3>Robot Abuse</h3>
+
+                    <p>
+                        Some arbitrary music tracks I've concocted, available at <a href="https://open.spotify.com/artist/5BWaLVIrTxKSqXFHAETKPA">Spotify</a>.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
