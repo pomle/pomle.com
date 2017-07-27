@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "serve ./ --port $PORT"
+  },
+  "dependencies": {
+    "serve": "^6.0.3"
+  }
+}
